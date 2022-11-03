@@ -32,15 +32,18 @@ if($_POST) {
    $from =  $name . " <" . $email . ">";
 
    // Email Headers
-	$headers = "From: " . $from . "\r\n";
+	$headers = "MIME-Version: 1.0"."\r\n";
+   $headers .= "Content-Type: text/html; charset=ISO-8859-1"."\r\n";
+   $headers .= "From: " . $from . "\r\n";
 	$headers .= "Reply-To: ". $email . "\r\n";
- 	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+ 	
+	
 
-   ini_set("sendmail_from", $to); // for windows server
+   //ini_set("sendmail_from", $to); // for windows server
    $mail = mail($to, $subject, $message, $headers);
+   
 
-	if ($mail) { echo "OK"; }
+	if ($mail == true) { echo "OK"; }
    else { echo "Something went wrong. Please try again."; }
 
 }

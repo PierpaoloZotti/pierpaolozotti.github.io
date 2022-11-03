@@ -1,4 +1,4 @@
-// @prepros-append vendor/jquery-3.3.1.min.js
+//@prepros-append vendor/jquery-3.3.1.min.js
 // @prepros-append vendor/popper.min.js
 // @prepros-append vendor/bootstrap.min.js
 // @prepros-append vendor/owl.carousel.min.js
