@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23.49 30.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gold_Dust);
+        stroke: #ede735;
+      }
+    </style>
+    <linearGradient id="Gold_Dust" data-name="Gold Dust" x1=".5" y1="15.5" x2="22.99" y2="15.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7300"/>
+      <stop offset=".18" stop-color="#f97c00"/>
+      <stop offset=".47" stop-color="#ea9502"/>
+      <stop offset=".55" stop-color="#e59e03"/>
+      <stop offset=".87" stop-color="#e5c500"/>
+      <stop offset=".99" stop-color="#bf6f00"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M9.25,15.49H1.75c-.69,0-1.25,.56-1.25,1.25H.5v12.5H.5c0,.69,.56,1.25,1.25,1.25H10.5v-13.75c0-.69-.56-1.25-1.25-1.25h0Zm6.25-7.5H8c-.69,0-1.25,.56-1.25,1.25h0v5.62h2.5c1.03,0,1.87,.84,1.87,1.87v13.75h5.62V9.25c0-.69-.56-1.25-1.25-1.25h0ZM22.99,1.75V29.24h0c0,.69-.56,1.25-1.25,1.25h-4.37V9.25c0-1.03-.84-1.87-1.87-1.87h-2.5V1.75h0c0-.69,.56-1.25,1.25-1.25h7.5c.69,0,1.25,.56,1.25,1.25h0Z"/>
+</svg>
