@@ -2053,8 +2053,8 @@ span.error {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #947ef7;
-  margin-left: -100%;
+  background: rgb(34,193,195);
+  background: linear-gradient(40deg, rgba(34,193,195,1) 0%, rgba(102,95,171,1) 43%, rgba(253,45,67,1) 100%);  margin-left: -100%;
   z-index: 2;
 }
 
@@ -2082,8 +2082,8 @@ span.error {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #947ef7;
-  margin-left: -100%;
+  background: rgb(34,193,195);
+  background: linear-gradient(40deg, rgba(34,193,195,1) 0%, rgba(102,95,171,1) 43%, rgba(253,45,67,1) 100%);  margin-left: -100%;
   z-index: 9;
 }
 
